@@ -20,7 +20,7 @@ desafio-deploy-web/
 ├── docker-compose.yml
 ├── html/
 │   ├── index.html
-│   ├── .env
+│   ├── .env.exemplo
 │   └── noticias/
 │       └── index.html
 ├── nginx/
@@ -105,6 +105,8 @@ https://localhost:8443/admin
 ```
 
 Deve retornar acesso bloqueado com erro `403 Forbidden`.
+
+Para testar o bloqueio do arquivo `.env`, pode ser criado localmente um arquivo `html/.env` com valores fictícios, baseado no `.env.exemplo`. Esse arquivo `.env` não é versionado no repositório.
 
 ```text
 
