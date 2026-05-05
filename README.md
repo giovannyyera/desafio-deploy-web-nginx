@@ -21,8 +21,6 @@ desafio-deploy-web/
 ├── html/
 │   ├── index.html
 │   ├── .env
-│   ├── .git/
-│   │   └── config
 │   └── noticias/
 │       └── index.html
 ├── nginx/
